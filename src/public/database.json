@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": 2,
+      "id": 3,
       "nombre": "Jonh Dolima",
       "profesion": "Programador",
       "edad": 25,
@@ -17,7 +17,23 @@
       }
     },
     {
-      "id": 3,
+      "id": 1,
+      "nombre": "Jonh Dolima",
+      "profesion": "Programador",
+      "edad": 25,
+      "lenguajes": [
+        "PHP",
+        "Javascript",
+        "Dart"
+      ],
+      "disponibilidadParaViajar": true,
+      "rangoProfesional": {
+        "aniosDeExperiencia": 12,
+        "nivel": "Senior"
+      }
+    },
+    {
+      "id": 5,
       "nombre": "Jonh Dolima",
       "profesion": "Programador",
       "edad": 25,

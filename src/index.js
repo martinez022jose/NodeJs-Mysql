@@ -15,7 +15,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 
 //Routes
-app.use(require('./routes/routes.js'));
+//app.use(require('./routes/routes.js'));
 app.use('/axios', require('./routes/axiosRoutes.js'));
 app.use(express.urlencoded({extended: false}));
 app.use(express.static('public'));

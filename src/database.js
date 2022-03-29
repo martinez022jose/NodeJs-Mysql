@@ -1,6 +1,5 @@
 const mysql = require('mysql2/promise');
 const axios = require('axios');
-//const data = require('./axiosDB/database.json');
 
 const pool = mysql.createPool({
     host: 'localhost',
